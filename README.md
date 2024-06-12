@@ -1,5 +1,29 @@
 # MeloFugulin_Hanna_LMS
-Module 2 | SDLC Assignment 
+
+# Module 6 Updates: 
+
+To start implementing the first phase of the Library Management System (LMS), the code was structured into three main classes:
+
+- Book.java: Defines the Book class with attributes and methods for a book object.
+- Library.java: Manages the collection of Book objects and provides methods for adding, removing, checking out, checking in, and displaying books.
+- LibraryApp.java: Contains the main method, which interacts with the user to perform the required tasks.
+
+## The main method executes the following tasks: 
+
+1. Ask the user for a file name, and receive it from the user.  Open the file supplied by the user, and add each book to the LMS database.
+2. Print the database to the screen, with a short message indicating that printing is taking place.
+3. Ask the user for a barcode number to remove.  Receive the barcode, remove the corresponding book from the database, print a confirmation message that the book was deleted, and re-print the contents of the database to the screen.
+4. Ask the user for a title number to remove.  Receive the title, remove the corresponding book from the database, print a confirmation message that the book was deleted, and re-print the contents of the database to the screen.
+5. Ask the user for a title to check out. Check out the book, print a confirmation message, and re-print the contents of the database to the screen.
+6. Ask the user for a title to check in. Check in the book, print a confirmation message, and re-print the contents of the database to the screen.
+
+ - Menu Loop: The program includes a loop that repeatedly displays a menu to the user. The user can choose an option by entering a number.
+ - Switch Case: Based on the user's choice, the corresponding action is performed (display all books, remove a book by barcode, remove a book by title, check out a book, check in a book, or exit the program).
+ - Exit Condition: The loop continues until the user selects the option to exit (case 6), at which point the program prints a goodbye message and terminates.
+
+
+# (Previous Content) 
+# Module 2 | SDLC Assignment 
 
 ## Defining Requirements
 This Library Management System will be a console-based application for managing a library's collection of books. There are three main features for this LMS: 
