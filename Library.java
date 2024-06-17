@@ -66,4 +66,8 @@ public class Library {
             System.out.println(book);
         }
     }
+        // Returns the list of books in the library -- to make testing easier.
+    public List<Book> getBooks() {
+        return books;
+    }
 }
