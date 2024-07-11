@@ -71,7 +71,7 @@
             <properties>
               <font name="Bookman Old Style" size="16" style="1"/>
               <foreground color="-12506092"/>
-              <text value="Welcome to the LMS program!  Please load a file and select an option to interact with the LMS."/>
+              <text value="Welcome to the LMS program!  Select an option to interact with the LMS."/>
             </properties>
           </component>
           <component id="44515" class="javax.swing.JLabel">
