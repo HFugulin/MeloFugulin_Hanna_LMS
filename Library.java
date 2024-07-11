@@ -59,14 +59,14 @@ public class Library {
         return false;
     }
 
-// Displays all books in the library.
+    // Displays all books in the library.
 
     public void displayBooks() {
         for (Book book : books) {
             System.out.println(book);
         }
     }
-        // Returns the list of books in the library -- to make testing easier.
+    // Returns the list of books in the library -- to make testing easier.
     public List<Book> getBooks() {
         return books;
     }
