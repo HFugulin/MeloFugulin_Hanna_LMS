@@ -1,5 +1,8 @@
 # MeloFugulin_Hanna_LMS
 
+# Module 9 Updates:
+Now everything is done through the GUI, and the database was finally implemented in place of the text file. 
+
 # Module 8 Updates:
 
 A GUI was added (using IntelliJ's Swing UI designer). A new class, LibraryGUI extends JFrame to create a main window of the GUI that makes the LMS user-friendly. It allows users to load books from a file, display the book list, remove books by barcode or title, and check in/check out books.
